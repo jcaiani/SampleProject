@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PanelContent should render correctly 1`] = `
+<Panel
+  bsClass="panel"
+  bsStyle="success"
+  defaultExpanded={false}
+  header="Personal Information"
+>
+  <Grid
+    bsClass="container"
+    componentClass="div"
+    fluid={false}
+  >
+    <Row
+      bsClass="row"
+      className="show-grid"
+      componentClass="div"
+      key="row0"
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        key="key0"
+        md={2}
+      >
+        <strong>
+          Name
+          : 
+        </strong>
+      </Col>
+      <Col
+        bsClass="col"
+        componentClass="div"
+        key="val0"
+        md={2}
+      >
+        mockName
+      </Col>
+    </Row>
+  </Grid>
+</Panel>
+`;

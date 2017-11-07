@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar should render correctly 1`] = `
+<Uncontrolled(Navbar)
+  bsStyle="default"
+>
+  <NavbarHeader>
+    <NavbarBrand>
+      Joseph Caiani - Sample Project
+    </NavbarBrand>
+  </NavbarHeader>
+  <Nav
+    bsClass="nav"
+    justified={false}
+    pullLeft={false}
+    pullRight={true}
+    stacked={false}
+  >
+    <NavItem
+      active={false}
+      disabled={false}
+      eventKey={1}
+      href="#/"
+    >
+      Home
+    </NavItem>
+    <NavItem
+      active={false}
+      disabled={false}
+      eventKey={2}
+      href="#/contact"
+    >
+      Contact List
+    </NavItem>
+    <NavItem
+      active={false}
+      disabled={false}
+      eventKey={3}
+      href="#/about"
+    >
+      About
+    </NavItem>
+  </Nav>
+</Uncontrolled(Navbar)>
+`;

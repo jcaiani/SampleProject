@@ -1,0 +1,92 @@
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.headerGlyphButton:active,
+.headerGlyphButton:hover,
+.headerGlyphButton:focus,
+.headerGlyphButton {
+    background-color: #F3F3F3;
+    border:0;
+    color: darkgrey;
+    float: right;
+}
+
+.commonTableHeader {
+    display: flex;
+}
+
+.rightContent {
+    margin-left: auto;
+    text-align: right;
+    display: inline-block;
+    padding-top: 6px;
+    padding-right: 17px;
+}
+
+.tableTitle {
+    font-size: 28px;
+    padding-left: 16px;
+    padding-top: 4px;
+}
+
+.tableTitleTotal {
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.searchContainer {
+    display: inline-block;
+}
+
+.react-bs-table-search-form {
+    display: inline-block;
+}
+
+.react-bs-table-search-form >input {
+     width: 38vw;
+ }
+
+.searchWidth {
+    width: 40%;
+}
+
+.fetch-spinner .glyphicon-refresh{
+    font-size: 18px;
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.commonTable {
+    background-color: #fff;
+    border: none;
+}
+
+.configuringMessage {
+    text-align: center;
+    font-size: 26px;
+    color: darkgrey;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.configuringMessage .glyphicon {
+    font-size: 24px;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    padding: 10px;
+    color: #337AB7;
+}
+

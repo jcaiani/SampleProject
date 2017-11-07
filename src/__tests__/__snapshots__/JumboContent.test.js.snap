@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JumboContent should render correctly 1`] = `
+<Jumbotron
+  bsClass="jumbotron"
+  componentClass="div"
+>
+  <h1>
+    mockTitle
+  </h1>
+  <p>
+    This is version 1.0 of Sample Project.
+  </p>
+</Jumbotron>
+`;
