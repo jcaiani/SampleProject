@@ -1,6 +1,6 @@
 "#Sample Project for Joseph Caiani"
 
-Thie project will fetch a list of contacts from the endpoint:
+This project will fetch a list of contacts from the endpoint:
 
     http://jsonplaceholder.typicode.com/users
 
