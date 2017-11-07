@@ -14,7 +14,7 @@ export class Home extends React.Component {
         return (
             <JumboContent
                 title="Home Page"
-                description="This application will list contacts in a tabular format. You can also view details of each contact in the table using the 'Details' button. Enjoy the application and come back often."
+                description="This application will list contacts in a tabular format. You can also view details of each contact in the table using its link in the 'Name' column. Enjoy the application and come back often."
                 buttonText="View Contacts"
                 buttonHref="#/contact"
             />

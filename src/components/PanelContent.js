@@ -83,7 +83,7 @@ export class PanelContent extends React.Component {
             <Row key={`row${i}`} className="show-grid">
                 <Col key={`key${i}`} md={2}><strong>{key}: </strong></Col>
                 <Col key={`val${i}`} md={2}>{key==="Website" ?
-                    <a key={i} href={data[key]}>{data[key]}</a>
+                    <a key={i} href={`http://${data[key]}`}>{data[key]}</a>
                     : data[key]}</Col>
             </Row>
         );
