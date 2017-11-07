@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About should render correctly 1`] = `
+<JumboContent
+  description="This is version 1.0 of Sample Project."
+  title="About"
+/>
+`;

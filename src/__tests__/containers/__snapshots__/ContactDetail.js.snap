@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactDetail should render correctly 1`] = `
+<div>
+  <div
+    className="configuringMessage"
+  >
+    <Glyphicon
+      bsClass="glyphicon"
+      glyph="refresh"
+    />
+     Loading...
+  </div>
+</div>
+`;

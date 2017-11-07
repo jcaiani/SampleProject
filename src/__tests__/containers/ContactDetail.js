@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Enzyme, { shallow, render, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import {PanelContent} from "../components/PanelContent.js";
+import {ContactDetail} from "../../containers/ContactDetail.js";
 import { shallowToJson } from 'enzyme-to-json';
 // React 16 Enzyme adapter
 Enzyme.configure({ adapter: new Adapter() });
@@ -14,11 +14,18 @@ console.error = message => {
     throw new Error(message);
 };
 
-describe('PanelContent', () => {
+describe('ContactDetail', () => {
     it('should render correctly', () => {
-        const contact = {name: "mockName"};
+        let mockDispatch = (() => {
+            return null;
+        });
+        let mockMatch = {
+            params: {
+                number: ':3'
+            }
+        };
         const output = shallow(
-            <PanelContent title="Personal Information" contact={contact} />
+            <ContactDetail dispatch={mockDispatch} match={mockMatch}/>
         );
         expect(shallowToJson(output)).toMatchSnapshot();
     });

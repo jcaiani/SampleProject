@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact should render correctly 1`] = `
+<div>
+  <BootstrapTable
+    autoCollapse={
+      Object {
+        "filter": false,
+        "search": false,
+        "sort": false,
+      }
+    }
+    bodyContainerClass={null}
+    bordered={false}
+    cellEdit={
+      Object {
+        "afterSaveCell": undefined,
+        "beforeSaveCell": undefined,
+        "blurToEscape": false,
+        "blurToSave": false,
+        "mode": "none",
+        "nonEditableRows": undefined,
+      }
+    }
+    columnFilter={false}
+    condensed={false}
+    containerClass={null}
+    csvFileName="spreadsheet.csv"
+    deleteRow={false}
+    expandColumnOptions={
+      Object {
+        "expandColumnBeforeSelectColumn": true,
+        "expandColumnComponent": undefined,
+        "expandColumnVisible": false,
+      }
+    }
+    exportCSV={false}
+    fetchInfo={
+      Object {
+        "dataTotalSize": 0,
+      }
+    }
+    footer={false}
+    headerContainerClass={null}
+    height="100%"
+    hover={true}
+    ignoreSinglePage={false}
+    insertRow={false}
+    keyBoardNav={false}
+    multiColumnSearch={false}
+    multiColumnSort={1}
+    options={
+      Object {
+        "noDataText": "",
+        "toolBar": [Function],
+      }
+    }
+    pagination={false}
+    printable={false}
+    replace={false}
+    search={true}
+    selectRow={
+      Object {
+        "bgColor": "",
+        "clickToExpand": false,
+        "clickToSelect": false,
+        "clickToSelectAndEditCell": false,
+        "customComponent": undefined,
+        "hideSelectColumn": false,
+        "mode": "none",
+        "onSelect": undefined,
+        "onSelectAll": undefined,
+        "onlyUnselectVisible": false,
+        "selected": Array [],
+        "showOnlySelected": false,
+        "unselectable": Array [],
+      }
+    }
+    striped={true}
+    tableBodyClass={null}
+    tableContainerClass={null}
+    tableFooterClass={null}
+    tableHeaderClass={null}
+    trClassName=""
+    version="3"
+    withoutTabIndex={false}
+  >
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFieldType="string"
+      dataAlign="left"
+      dataField="id"
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editable={true}
+      expandable={true}
+      filterFormatted={false}
+      headerTitle={true}
+      hidden={true}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={true}
+      keyValidator={false}
+      searchable={true}
+      sortIndicator={true}
+      width={null}
+    >
+      ID
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFieldType="string"
+      dataAlign="left"
+      dataField="name"
+      dataFormat={[Function]}
+      dataSort={true}
+      defaultASC={false}
+      editColumnClassName=""
+      editable={true}
+      expandable={true}
+      filterFormatted={false}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      searchable={true}
+      sortIndicator={true}
+      width={null}
+    >
+      NAME
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFieldType="string"
+      dataAlign="left"
+      dataField="username"
+      dataFormat={[Function]}
+      dataSort={true}
+      defaultASC={false}
+      editColumnClassName=""
+      editable={true}
+      expandable={true}
+      filterFormatted={false}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      searchable={true}
+      sortIndicator={true}
+      width={null}
+    >
+      USERNAME
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFieldType="string"
+      dataAlign="left"
+      dataField="email"
+      dataFormat={[Function]}
+      dataSort={true}
+      defaultASC={false}
+      editColumnClassName=""
+      editable={true}
+      expandable={true}
+      filterFormatted={false}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      searchable={true}
+      sortIndicator={true}
+      width={null}
+    >
+      EMAIL
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFieldType="string"
+      dataAlign="left"
+      dataField="address"
+      dataFormat={[Function]}
+      dataSort={true}
+      defaultASC={false}
+      editColumnClassName=""
+      editable={true}
+      expandable={true}
+      filterFormatted={false}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      searchable={true}
+      sortIndicator={true}
+      width={null}
+    >
+      ADDRESS
+    </TableHeaderColumn>
+  </BootstrapTable>
+</div>
+`;

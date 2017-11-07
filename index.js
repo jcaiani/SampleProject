@@ -1,3 +1,8 @@
+/**
+ * @author Joseph Caiani
+ * @description main file for starting express when running npm start
+ * @type {*|createApplication}
+ */
 const express = require('express');
 const app = express();
 const path = require('path');

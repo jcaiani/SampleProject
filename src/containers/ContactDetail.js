@@ -17,8 +17,8 @@ export class ContactDetail extends Component {
         super(props);
 
         this.refresh = () => {
-            const {dispatch, location} = this.props;
-            dispatch(fetchContactDetail(parseInt(this.props.match.params.number.substr(1))));
+            const {dispatch, match} = this.props;
+            dispatch(fetchContactDetail(parseInt(match.params.number.substr(1))));
         };
     }
 
@@ -41,7 +41,7 @@ export class ContactDetail extends Component {
             dispatch: PropTypes.func.isRequired,
             contact: PropTypes.object,
             contactDetailError: PropTypes.any,
-            location: PropTypes.any
+            match: PropTypes.any
         }
     }
     /**

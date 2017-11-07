@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Enzyme, { shallow, render, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import {NavigationBar} from "../components/NavigationBar.js";
+import {JumboContent} from "../../components/JumboContent.js";
 import { shallowToJson } from 'enzyme-to-json';
 // React 16 Enzyme adapter
 Enzyme.configure({ adapter: new Adapter() });
@@ -13,11 +13,14 @@ global.mount = mount;
 console.error = message => {
     throw new Error(message);
 };
+global.requestAnimationFrame = (callback) => {
+    setTimeout(callback, 0);
+};
 
-describe('NavigationBar', () => {
+describe('JumboContent', () => {
     it('should render correctly', () => {
         const output = shallow(
-            <NavigationBar />
+            <JumboContent title="mockTitle" />
         );
         expect(shallowToJson(output)).toMatchSnapshot();
     });

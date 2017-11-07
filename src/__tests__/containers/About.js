@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Enzyme, { shallow, render, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import {PageHeaderContent} from "../components/PageHeaderContent.js";
+import {About} from "../../containers/About.js";
 import { shallowToJson } from 'enzyme-to-json';
 // React 16 Enzyme adapter
 Enzyme.configure({ adapter: new Adapter() });
@@ -14,10 +14,10 @@ console.error = message => {
     throw new Error(message);
 };
 
-describe('PageHeaderContent', () => {
+describe('About', () => {
     it('should render correctly', () => {
         const output = shallow(
-            <PageHeaderContent title="mockTitle" email="mock@email.com" />
+            <About />
         );
         expect(shallowToJson(output)).toMatchSnapshot();
     });
