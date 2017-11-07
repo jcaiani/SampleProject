@@ -21,10 +21,13 @@ The application has the following page/components:
 Command syntax:
 
     -npm run test
-        Run the jest snapshot test cases. These cases create a snapshot of your components and saves them for a subsequent snapshot test. The test confirms that the well tested components you've written have not been subsequently altered. Uses jest, enzyme, and react.
+        Run the jest snapshot test cases. These cases create a snapshot of your components and saves them
+        for a subsequent snapshot test. The test confirms that the well tested components you've written
+        have not been subsequently altered. Uses jest, enzyme, and react.
 
     -npm build
-        Run the build to transpile all the es6 and react jsx code and add the result to the distribution directory in a file bundle.js.
+        Run the build to transpile all the es6 and react jsx code and add the result to the distribution
+        directory in a file bundle.js.
 
     -npm dev
         Run the developer environment with open the webpack dev server on port 9000.

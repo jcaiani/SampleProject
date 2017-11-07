@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69c2395c-d6ce-47d5-b9c0-96644680681d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/containers/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/containers/Contact.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/containers/ContactDetail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/containers/Home.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__tests__/JumboContent.test.js" afterPath="$PROJECT_DIR$/src/__tests__/components/JumboContent.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__tests__/NavigationBar.test.js" afterPath="$PROJECT_DIR$/src/__tests__/components/NavigationBar.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__tests__/PageHeaderContent.js" afterPath="$PROJECT_DIR$/src/__tests__/components/PageHeaderContent.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__tests__/PanelContent.js" afterPath="$PROJECT_DIR$/src/__tests__/components/PanelContent.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__tests__/TableHeader.js" afterPath="$PROJECT_DIR$/src/__tests__/components/TableHeader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__tests__/__snapshots__/JumboContent.test.js.snap" afterPath="$PROJECT_DIR$/src/__tests__/components/__snapshots__/JumboContent.test.js.snap" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__tests__/__snapshots__/NavigationBar.test.js.snap" afterPath="$PROJECT_DIR$/src/__tests__/components/__snapshots__/NavigationBar.test.js.snap" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__tests__/__snapshots__/PageHeaderContent.js.snap" afterPath="$PROJECT_DIR$/src/__tests__/components/__snapshots__/PageHeaderContent.js.snap" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__tests__/__snapshots__/PanelContent.js.snap" afterPath="$PROJECT_DIR$/src/__tests__/components/__snapshots__/PanelContent.js.snap" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/__tests__/__snapshots__/TableHeader.js.snap" afterPath="$PROJECT_DIR$/src/__tests__/components/__snapshots__/TableHeader.js.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bundle.js" afterPath="$PROJECT_DIR$/dist/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ContactDetail.js" afterPath="$PROJECT_DIR$/src/containers/ContactDetail.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +22,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="23" column="268" lean-forward="false" selection-start-line="23" selection-start-column="268" selection-end-line="23" selection-end-column="268" />
+            <state relative-caret-position="1015">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -275,11 +257,11 @@
         <option value="$PROJECT_DIR$/src/components/PanelContent.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/src/__tests__/containers/About.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/__tests__/containers/Home.js" />
         <option value="$PROJECT_DIR$/src/__tests__/containers/Contact.js" />
         <option value="$PROJECT_DIR$/src/containers/ContactDetail.js" />
         <option value="$PROJECT_DIR$/src/__tests__/containers/ContactDetail.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -489,7 +471,7 @@
       <workItem from="1509906676214" duration="36940000" />
       <workItem from="1510001982685" duration="2933000" />
       <workItem from="1510022883598" duration="13963000" />
-      <workItem from="1510066849387" duration="3314000" />
+      <workItem from="1510066849387" duration="3484000" />
     </task>
     <servers />
   </component>
@@ -526,7 +508,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103441000" />
+    <option name="totallyTimeSpent" value="103611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -927,8 +909,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="23" column="268" lean-forward="false" selection-start-line="23" selection-start-column="268" selection-end-line="23" selection-end-column="268" />
+        <state relative-caret-position="1015">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding />
         </state>
       </provider>
