@@ -28,9 +28,10 @@ export class Contact extends Component {
          * @function
          */
         this.createCustomToolBar = props => {
+            const {contacts} = this.props;
             return (
                 <TableHeader
-                    total={4}
+                    total={contacts? contacts.length : 0}
                     refreshAction={this.refresh}
                     sectionHeader="Contact List"
                     refreshButtonString="Refresh"
