@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "retest": "jest --updateSnapshot",
     "build": "webpack",
     "start": "webpack & node index.js",
     "dev": "webpack-dev-server --open"
