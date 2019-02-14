@@ -32,6 +32,7 @@ exports[`Contact should render correctly 1`] = `
         "expandColumnBeforeSelectColumn": true,
         "expandColumnComponent": undefined,
         "expandColumnVisible": false,
+        "expandedColumnHeaderComponent": undefined,
       }
     }
     exportCSV={false}
@@ -57,6 +58,7 @@ exports[`Contact should render correctly 1`] = `
     }
     pagination={false}
     printable={false}
+    renderAlert={true}
     replace={false}
     search={true}
     selectRow={
